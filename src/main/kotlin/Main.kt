@@ -1,7 +1,7 @@
 fun main() {
     // Declaración de variables
     // Aqui tienes que definir las variables que se utilizan
-    val miNombre="hibi"
+    val miNombre= readLine().toString()
     val edad: Byte
     val mes: Byte
     // Leo desde teclado la edad del alumno y el mes actual
