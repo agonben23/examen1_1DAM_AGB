@@ -52,11 +52,6 @@ fun main() {
 
 }
 
-fun ExceptionEdad(edad: Byte) {
-    if ((edad < 6) || (edad > 12))
-
-}
-
 fun rangoedad(edad: Byte): String {
      return when (edad) {
          in 6..8 -> "[6-8]"
