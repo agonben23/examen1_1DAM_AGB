@@ -1,6 +1,7 @@
 fun main() {
     // Declaración de variables
     // Aqui tienes que definir las variables que se utilizan
+    println("Introduzca el nombre")
     val miNombre= readLine().toString()
     val edad: Byte
     val mes: Byte
@@ -110,9 +111,9 @@ fun e1112(){ // Adjudica las tablas para edades entre 11 y 12 años
 }
 fun AdRango(edad: Byte,mes: Byte) : String{ //Adjudica el rango dependiendo de la edad
     return when (edad) {
-        in 6..8 -> "${r68(mes)}"
-        in 9..10 -> "${r910(mes)}"
-        in 11..12 -> "${r1112()}"
+        in 6..8 -> r68(mes)
+        in 9..10 -> r910(mes)
+        in 11..12 -> r1112()
         else -> ""
     }
 }
